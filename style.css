@@ -1,0 +1,37 @@
+@media all and (max-width: 300px) {
+    body 
+    {
+        background-color: red;
+        font-size: 16px;
+    }
+}
+@media all and (min-width: 300px) and (max-width: 768px) {
+    body
+    {
+        background-color: green;
+        font-size: 32px;
+    }
+    .small
+    {
+        display: block;
+        width: 66%;
+    }
+    .medium
+    {
+        display: block;
+        width: 33%;
+    }
+    .large
+    {
+        display: block;
+        width: 100%;
+    }
+}
+@media all and (min-width: 768px) {
+    body
+    {
+        display: flex;
+        background-color: blue;
+        font-size: 48px;
+    }
+}
